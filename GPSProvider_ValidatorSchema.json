@@ -1,0 +1,11 @@
+  {
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "GPSPROVIDERKEY": {
+      "type": "string",
+      "enum": ["6pVyVl","technopurple","test"]
+    }
+  },
+  "required": ["GPSPROVIDERKEY"]
+}

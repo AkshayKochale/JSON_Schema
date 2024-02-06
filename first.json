@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "vehicleType": {
-      "$ref": "C:\Users\techn\OneDrive\Desktop\jsonValidator\second.json#/properties/allowedVehicleTypes"
+      "$ref": "https://github.com/akshayk78/JSON_Schema/blob/master/second.json#/properties/allowedVehicleTypes"
     }
   },
   "required": ["vehicleType"]
