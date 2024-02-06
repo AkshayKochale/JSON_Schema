@@ -1,10 +1,10 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
     "vehicleType": {
-      "$ref": "https://github.com/akshayk78/JSON_Schema/blob/master/second.json#/properties/allowedVehicleTypes"
+      "type":"string",
+      "$ref": "https://raw.githubusercontent.com/akshayk78/JSON_Schema/master/second.json#/properties/allowedVehicleTypes"
     }
   },
   "required": ["vehicleType"]
-}
