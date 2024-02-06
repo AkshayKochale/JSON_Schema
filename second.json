@@ -4,7 +4,7 @@
   "properties": {
     "allowedVehicleTypes": {
       "type": "string",
-      "enum": ["Car", "Bus", "Truck", "Motorcycle"]
+      "enum": ["Car", "Bus", "Truck", "Motorcycle","key1"]
     }
   },
   "required": ["allowedVehicleTypes"]
